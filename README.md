@@ -3,22 +3,22 @@
 Este proyecto esta construido con React y MUI. Realice este proyecto para incrementar mi habilidades con el front-end. Sobre la utilización de react, solo utilizo el useState para cambiar algunos estados, pero no utilizo rutas ni otros hooks ya que mi enfoque era mas en maquetación. En las imagenes se puede apreciar algo del desarrollo:
 ### `Register`
 <p>
-    <img src='./assets/register.png'>
+    <img src='./assets/register.png'/>
 </p>
 
 ### `Login`
 <p>
-    <img src='./assets/login.png'>
+    <img src='./assets/login.png'/>
 </p>
 
 ### `Home`
 <p>
-    <img src='./assets/home.png'>
+    <img src='./assets/home.png'/>
 </p>
 
 ### `Profile`
 <p>
-    <img src='./assets/profile.png'>
+    <img src='./assets/profile.png'/>
 </p>
 
 In the project directory, you can run:
