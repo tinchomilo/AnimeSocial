@@ -1,0 +1,12 @@
+.feedContainer {
+    flex: 6;
+    height: calc( 100vh - 50px);
+}
+
+.feedWrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+}

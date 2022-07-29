@@ -1,0 +1,88 @@
+.loginContainer {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    height: 100vh;
+}
+
+.loginLeft {
+    flex: 1;
+    position: relative;
+}
+
+.loginLeftContent {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    width: 300px;
+}
+
+.loginLeftContent h1 {
+    color: rgb(0, 52, 225);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.loginLeftContent span {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.loginRight {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.loginRightContent {
+    align-items: center;
+    background-color: rgb(249, 249, 249);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    padding: 15px;
+    position: absolute;
+    width: 410px;
+}
+
+.loginRightContent span {
+    color: rgb(24, 31, 236);
+    cursor: pointer;
+}
+
+.loginRightInput {
+    border-radius: 10px;
+    border: 2px solid rgb(191, 191, 191);
+    font-size: 18px;
+    height: 45px;
+    padding-left: 12px;
+    width: 100%;
+}
+
+.loginRightInput:focus {
+    outline: none;
+}
+
+.loginRightSingup {
+    height: 40px;
+    width: 100%;
+}
+
+.loginRightLogin {
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    width: 100%;
+}
+
+.loginRightNew {
+    width: 100%;
+}

@@ -1,0 +1,43 @@
+.sidebarWrapper {
+    flex: 3;
+    height: calc( 100vh - 50px);
+    overflow-y: scroll;
+    position: sticky;
+    top: 50px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track-piece{
+    background-color: rgb(195, 195, 195);
+}
+
+::-webkit-scrollbar-thumb  {
+    background-color: rgb(121, 121, 121);
+    border-radius: 6px;
+    height: 10px;
+    width: 4px;
+}
+
+.sidebarListIconsContainer {
+    padding: 0 15px;
+}
+
+.listIcons {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebarIcon {
+    align-items: center;
+    display: flex;
+    gap: 13px;
+    margin: 20px 0px;
+}
+
+.sidebarIconSpan {
+    font-size: 14px;
+    font-weight: 500;
+}

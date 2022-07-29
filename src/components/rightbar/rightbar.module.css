@@ -1,0 +1,65 @@
+.rightbarContainer {
+    flex: 4
+}
+
+.rightbarWrapper {
+    padding: 20px 20px 0 0;
+}
+
+.rightbarContent {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.rightbarImage {
+    width: 50px;
+}
+
+.rightbarAdImage {
+    border-radius: 15px;
+    margin: 30px 0;
+    width: 100%;
+}
+
+.rightbarFriendsContainer {
+    list-style: none;
+    padding: 10px 5px;
+}
+
+.rightbarFriendsTitle {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.rightbarProfileInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 25px;
+}
+
+.rightbarProfileDates {
+    font-size: 18px;
+}
+
+.rightbarProfileKeys {
+    margin-right: 5px;
+}
+
+.rightbarProfileValues {
+    font-weight: 300;
+}
+
+.rightbarProfileFollowers ul {
+    margin: 0;
+    margin-top: 15px;
+    padding: 0;
+}
+
+.rightbarProfileFollowers ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}

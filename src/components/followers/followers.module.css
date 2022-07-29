@@ -1,0 +1,24 @@
+.followersFriendsList {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.followersfollowersFriends {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+}
+
+.followersfollowersFriends img {
+    border-radius: 10px;
+    cursor: pointer;
+    height: 90px;
+    object-fit: cover;
+    width: 90px;
+}
+
+.followersfollowersFriends span {
+    font-size: 12px;
+    font-weight: bold;
+}

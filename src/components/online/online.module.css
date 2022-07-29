@@ -1,0 +1,28 @@
+.onlineFriendsList {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+.onlineOnlineFriends {
+    position: relative;
+}
+
+.onlineOnlineFriends img {
+    border-radius: 50%;
+    height: 50px;
+    object-fit: cover;
+    width: 50px;
+}
+
+.onlineOnlineFriendsState {
+    background-color: rgb(0, 223, 22);
+    border-radius: 50%;
+    border: 2px solid white;
+    height: 14px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 14px;
+}
