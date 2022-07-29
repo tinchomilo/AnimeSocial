@@ -17,42 +17,44 @@ export const Sidebar = () => {
   return (
     <div className={styles.sidebarWrapper}>
       <div className={styles.sidebarListIconsContainer}>
-        <li className={styles.sidebarIcon}>
-          <RssFeedIcon />
-          <span className={styles.sidebarIconSpan}>Feed</span>
-        </li>
-        <li className={styles.sidebarIcon}>
-          <ChatIcon />
-          <span className={styles.sidebarIconSpan}>Chat</span>
-        </li>
-        <li className={styles.sidebarIcon}>
-          <PlayCircleFilledWhiteIcon />
-          <span className={styles.sidebarIconSpan}>Videos</span>
-        </li>
-        <li className={styles.sidebarIcon}>
-          <GroupsIcon />
-          <span className={styles.sidebarIconSpan}>Groups</span>
-        </li>
-        <li className={styles.sidebarIcon}>
-          <BookmarkIcon />
-          <span className={styles.sidebarIconSpan}>Bookmarks</span>
-        </li>
-        <li className={styles.sidebarIcon}>
-          <HelpOutlineIcon />
-          <span className={styles.sidebarIconSpan}>Help</span>
-        </li>
-        <li className={styles.sidebarIcon}>
-          <WorkIcon />
-          <span className={styles.sidebarIconSpan}>Jobs</span>
-        </li>
-        <li className={styles.sidebarIcon}>
-          <EventIcon />
-          <span className={styles.sidebarIconSpan}>Events</span>
-        </li>
-        <li className={styles.sidebarIcon}>
-          <SchoolIcon />
-          <span className={styles.sidebarIconSpan}>Courses</span>
-        </li>
+        <ul className={styles.sidebarList}>
+          <li className={styles.sidebarIcon}>
+            <RssFeedIcon />
+            <span className={styles.sidebarIconSpan}>Feed</span>
+          </li>
+          <li className={styles.sidebarIcon}>
+            <ChatIcon />
+            <span className={styles.sidebarIconSpan}>Chat</span>
+          </li>
+          <li className={styles.sidebarIcon}>
+            <PlayCircleFilledWhiteIcon />
+            <span className={styles.sidebarIconSpan}>Videos</span>
+          </li>
+          <li className={styles.sidebarIcon}>
+            <GroupsIcon />
+            <span className={styles.sidebarIconSpan}>Groups</span>
+          </li>
+          <li className={styles.sidebarIcon}>
+            <BookmarkIcon />
+            <span className={styles.sidebarIconSpan}>Bookmarks</span>
+          </li>
+          <li className={styles.sidebarIcon}>
+            <HelpOutlineIcon />
+            <span className={styles.sidebarIconSpan}>Help</span>
+          </li>
+          <li className={styles.sidebarIcon}>
+            <WorkIcon />
+            <span className={styles.sidebarIconSpan}>Jobs</span>
+          </li>
+          <li className={styles.sidebarIcon}>
+            <EventIcon />
+            <span className={styles.sidebarIconSpan}>Events</span>
+          </li>
+          <li className={styles.sidebarIcon}>
+            <SchoolIcon />
+            <span className={styles.sidebarIconSpan}>Courses</span>
+          </li>
+        </ul>
         <Button variant='outlined' color='success'>
           Show more
         </Button>
