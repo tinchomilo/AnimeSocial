@@ -28,9 +28,9 @@ export const Register = () => {
             type="text"
             placeholder='Password Again'
             />
-          <Button className={ styles.registerRightSingup } variant='contained'>Sing Up</Button>
+          <Button className={ styles.registerRightSingup } variant='contained' sx={{borderRadius:2, fontSize:15}}>Sing Up</Button>
           <div className={styles.registerRightLogin}>
-            <Button variant='contained' color='success'>Log into Account</Button>
+            <Button variant='contained' color='success' sx={{borderRadius:2, fontSize:15}}>Log into Account</Button>
           </div>
         </div>
       </div>

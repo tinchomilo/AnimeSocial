@@ -20,10 +20,10 @@ export const Login = () => {
             type="text"
             placeholder='Password'
             />
-          <Button className={ styles.loginRightSingup } variant='contained'>Log in</Button>
+          <Button className={ styles.loginRightSingup } variant='contained' sx={{borderRadius:2, fontSize:15}}>Log in</Button>
           <span>Forgot Password?</span>
           <div className={styles.loginRightLogin}>
-            <Button className={ styles.loginRightNew } variant='contained' color='success'>Create a New Account</Button>
+            <Button className={ styles.loginRightNew } variant='contained' color='success' sx={{borderRadius:2, fontSize:15}}>Create a New Account</Button>
           </div>
         </div>
       </div>
